@@ -1,0 +1,32 @@
+{
+  "name": "server-platform",
+  "version": "1.0.0",
+  "description": "A simple SOAP server and client example using the node-soap package and express.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start-dev": "node-dev app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3",
+    "mongoose": "^5.3.8",
+    "soap": "^0.25.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-google": "^0.11.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
